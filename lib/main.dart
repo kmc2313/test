@@ -25,15 +25,16 @@ const String appTitle = 'MAZZELメンバークイズ';
 
 class _SimpleTrainingAppState extends State<SimpleTrainingApp> {
   final List<List<String>> data = [
-    ["assets/mazzel/かいりゅう.jpg", "〇 KAIRYU"],
-    ["assets/mazzel/なおや.jpg", "〇 NAOYA"],
-    ["assets/mazzel/かいりゅう.jpg", "〇 RUN"],
-    ["assets/mazzel/なおや.jpg", "〇 SEITO"],
-    ["assets/mazzel/かいりゅう.jpg", "〇 RYUKI"],
-    ["assets/mazzel/なおや.jpg", "〇 TAKUTO"],
-    ["assets/mazzel/かいりゅう.jpg", "〇 HAYATO"],
-    ["assets/mazzel/なおや.jpg", "〇 EIKI"],
-  ];
+  ["assets/mazzel/りゅうき.jpg", "〇 RYUKI"],
+  ["assets/mazzel/かいりゅう.jpg", "〇 KAIRYU"],
+  ["assets/mazzel/せいと.jpg", "〇 SEITO"],
+  ["assets/mazzel/たくと.jpg", "〇 TAKUTO"],
+  ["assets/mazzel/はやと.jpg", "〇 HAYATO"],
+  ["assets/mazzel/らん.jpg", "〇 RAN"],
+  ["assets/mazzel/なおや.jpg", "〇 NAOYA"],
+  ["assets/mazzel/えいき.jpg", "〇 EIKI"],
+];
+
 
   late final List<Sample> _samples;
   int _index = 0;
